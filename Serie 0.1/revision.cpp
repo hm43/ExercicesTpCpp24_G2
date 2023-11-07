@@ -6,6 +6,7 @@ using namespace std;
 int main(){
     vector<string> tab;
     tab.resize(4);
+    cout<<"Entrer 4 valeurs: ";
     for(string &element: tab){
         getline(cin, element);
     }
@@ -22,9 +23,6 @@ int main(){
     for(string element: tab){
         cout<<element<<", ";
     }
-
-
     cout<<endl;
-
     return 0;
 }

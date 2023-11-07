@@ -8,7 +8,6 @@ Exercice 1:
 3. Créer 3 variables d'étudiants avec l'insertion des données (il faut utiliser l’allocation dynamique).
 4. Créer une fonction moyenne qui prend étudiant en parametre et return la note moyenne.
 5. Afficher les informations et la moyenne de chaque étudiant (il faut utiliser le passage par adresse).
-
 */
 
 typedef struct {
